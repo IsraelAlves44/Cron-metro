@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+}
+
+body .container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 600px;
+  background-color: #fff;
+  height: 300px;
+  margin-top: 300px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  background: #e0e0e0;
+  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+body .container h1 {
+  opacity: 50%;
+}
+
+body .container p {
+  opacity: 50%;
+}
+
+body .container .counter {
+  font-size: 100px;
+}
+
+body .container .buttsons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  margin-top: 2rem;
+}
+
+body .container .buttsons button {
+  border: 0;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+body .container .buttsons .start {
+  border-radius: 50px;
+  background: #93e197;
+  -webkit-box-shadow: 20px 20px 60px #7dbf80, -20px -20px 60px #a9ffae;
+          box-shadow: 20px 20px 60px #7dbf80, -20px -20px 60px #a9ffae;
+}
+
+body .container .buttsons .pause {
+  border-radius: 50px;
+  background: #d38d8d;
+  -webkit-box-shadow: 20px 20px 60px #b37878, -20px -20px 60px #f3a2a2;
+          box-shadow: 20px 20px 60px #b37878, -20px -20px 60px #f3a2a2;
+}
+
+body .container .buttsons .restart {
+  border-radius: 50px;
+  background: #dbd776;
+  -webkit-box-shadow: 20px 20px 60px #bab764, -20px -20px 60px #fcf788;
+          box-shadow: 20px 20px 60px #bab764, -20px -20px 60px #fcf788;
+}
+
+body .container .buttsons .stop {
+  border-radius: 50px;
+  background: #dbd776;
+  -webkit-box-shadow: 20px 20px 60px #bab764, -20px -20px 60px #fcf788;
+          box-shadow: 20px 20px 60px #bab764, -20px -20px 60px #fcf788;
+}
+
+body .container .red {
+  color: #ff6e6e;
+}
+
+body .container .black {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
