@@ -1,7 +1,6 @@
 function clock() {
   const container = document.querySelector(".container");
   const counter = container.querySelector(".counter");
-
   let segundos = 0;
   let timer;
 
